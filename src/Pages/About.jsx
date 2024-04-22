@@ -403,6 +403,26 @@ const About = () => {
                     ></a>
                   </div>
                 </article>
+                <article class="team">
+                <figure class="team__img-box">
+                  <img
+                    src="assets/images/team/ahmad.jpg"
+                    alt="Ahmad Abueisa"
+                    class="team__img"
+                  />
+                </figure>
+                <div class="team__content">
+                  <p class="team__name">Ahmad Abueisa</p>
+                  <p class="team__job">Head of Supply Chain Development-Advisor, Hungary 
+
+                  </p>
+                  <a
+                    href="https://www.linkedin.com/in/ahmadabueisa/"
+                    class="team__linkedin"
+                    >Linkedin <i class="bx bxl-linkedin-square"></i
+                  ></a>
+                </div>
+              </article>
               </div>
             </div>
           </div>
