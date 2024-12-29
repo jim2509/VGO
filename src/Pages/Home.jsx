@@ -1,15 +1,9 @@
 import { Link } from "react-router-dom";
 
-
-
 const Home = () => {
   return (
-
-    <>\
-
-
-
-
+    <>
+      \
       <main>
         <section className="hero flex flex-center">
           <div className="container hero__content text-center">
@@ -18,14 +12,26 @@ const Home = () => {
             </h1>
             <p className="hero__hastag">Empowering Sustainable Change</p>
             <p className="hero__text">
-              Vision Green Organization is dedicated to addressing
-              environmental and social challenges through sustainable technology and initiatives.
-              <strong> Our Work Areas: Climate Action, Green Entrepreneurship, Sustainability, Youth Engagement </strong>
+              Vision Green Organization is dedicated to addressing environmental
+              and social challenges through sustainable technology and
+              initiatives.
+              <strong>
+                {" "}
+                Our Work Areas: Climate Action, Green Entrepreneurship,
+                Sustainability, Youth Engagement{" "}
+              </strong>
             </p>
-            <Link to="/English" className="btn btn--primary btn--flex mg-right-sm"><i className="bx bxs-hand btn__icon"></i>
-              Pledge</Link>
-            <Link to="/Talpata" className="btn btn--secondary btn--flex"><i className="bx bxs-download btn__icon"></i>
-              Talpata</Link>
+            <Link
+              to="/English"
+              className="btn btn--primary btn--flex mg-right-sm"
+            >
+              <i className="bx bxs-hand btn__icon"></i>
+              Pledge
+            </Link>
+            <Link to="/Talpata" className="btn btn--secondary btn--flex">
+              <i className="bx bxs-download btn__icon"></i>
+              Talpata
+            </Link>
           </div>
           {/* <!-- Scroll down btn --> */}
           <a href="#" className="scroll-down display-block">
@@ -34,16 +40,28 @@ const Home = () => {
           {/* <!-- Social Media --> */}
           <ul className="hero__social flex flex-items-center">
             <li className="hero__social-list">
-              <a href="https://web.facebook.com/visiongreenorganization" className="hero__social-link"><i
-                className="bx bxl-facebook hero__social-icon"></i></a>
+              <a
+                href="https://web.facebook.com/visiongreenorganization"
+                className="hero__social-link"
+              >
+                <i className="bx bxl-facebook hero__social-icon"></i>
+              </a>
             </li>
             <li className="hero__social-list">
-              <a href="https://instagram.com/vision_green_organization?igshid=Yzg5MTU1MDY=" className="hero__social-link"><i
-                className="bx bxl-instagram hero__social-icon"></i></a>
+              <a
+                href="https://instagram.com/vision_green_organization?igshid=Yzg5MTU1MDY="
+                className="hero__social-link"
+              >
+                <i className="bx bxl-instagram hero__social-icon"></i>
+              </a>
             </li>
             <li className="hero__social-list">
-              <a href="https://www.linkedin.com/company/vision-green-organization/" className="hero__social-link"><i
-                className="bx bxl-linkedin hero__social-icon"></i></a>
+              <a
+                href="https://www.linkedin.com/company/vision-green-organization/"
+                className="hero__social-link"
+              >
+                <i className="bx bxl-linkedin hero__social-icon"></i>
+              </a>
             </li>
           </ul>
         </section>
@@ -53,7 +71,11 @@ const Home = () => {
           <div className="goal container grid ">
             {/* <!-- GOAL o1 --> */}
             <figure className="goal__image-wrapper">
-              <img src="/src/assets/images/home-1.jpg" alt="..." className="goal__image" />
+              <img
+                src="/src/assets/images/home-1.jpg"
+                alt="..."
+                className="goal__image"
+              />
             </figure>
             <div className="goal__content">
               <h3 className="goal__heading heading-tertiary">
@@ -66,8 +88,8 @@ const Home = () => {
                 </li>
                 <li className="goal__list-item">
                   <i className="bx bx-check-double goal__list-icon"></i>
-                  Motivating people to use more eco-friendly products and adopt an
-                  eco-friendly lifestyle
+                  Motivating people to use more eco-friendly products and adopt
+                  an eco-friendly lifestyle
                 </li>
                 <li className="goal__list-item">
                   <i className="bx bx-check-double goal__list-icon"></i>
@@ -78,15 +100,16 @@ const Home = () => {
                   <i className="bx bx-check-double goal__list-icon"></i>
                   <span>
                     Promoting green entrepreneurship to ensure accessibility of
-                    eco-friendly products and services</span>
+                    eco-friendly products and services
+                  </span>
                 </li>
               </ul>
             </div>
             {/* <!-- GOAL 02 --> */}
             <div className="goal__content">
               <h3 className="goal__heading heading-tertiary">
-                Offer your help to bring sustainable change in the communities and
-                the lives of people
+                Offer your help to bring sustainable change in the communities
+                and the lives of people
               </h3>
               <p className="goal__subheading">
                 Your assistance can be instrumental to:
@@ -95,7 +118,8 @@ const Home = () => {
                 <li className="goal__list-item">
                   <i className="bx bxs-spa goal__list-icon"></i>
                   Make the unheard voices of the youth from disadvantaged and
-                  vulnerable parts of the Climate Stories heard through our Eco-Journalism.
+                  vulnerable parts of the Climate Stories heard through our
+                  Eco-Journalism.
                 </li>
                 <li className="goal__list-item">
                   <i className="bx bxs-spa goal__list-icon"></i>
@@ -107,12 +131,20 @@ const Home = () => {
               </ul>
             </div>
             <figure className="goal__image-wrapper">
-              <img src="/src/assets/images/home-2.jpg" alt="..." className="goal__image" />
+              <img
+                src="/src/assets/images/home-2.jpg"
+                alt="..."
+                className="goal__image"
+              />
             </figure>
 
             {/* <!-- GOAL 03 --> */}
             <figure className="goal__image-wrapper">
-              <img src="/src/assets/images/hero-img-3.jpg" alt="..." className="goal__image" />
+              <img
+                src="/src/assets/images/hero-img-3.jpg"
+                alt="..."
+                className="goal__image"
+              />
             </figure>
 
             <div className="goal__content">
@@ -120,18 +152,18 @@ const Home = () => {
                 <li className="goal__list-item">
                   <i className="bx bxs-spa goal__list-icon"></i>
                   Conduct research to highlight the root causes that hinder
-                  sustainability, means of achieving sustainability, and systemic
-                  analysis of the sustainability journey
+                  sustainability, means of achieving sustainability, and
+                  systemic analysis of the sustainability journey
                 </li>
                 <li className="goal__list-item">
                   <i className="bx bxs-spa goal__list-icon"></i>
-                  Advocate the sustainability thoughts and actions to promote this
-                  among other youths and adults
+                  Advocate the sustainability thoughts and actions to promote
+                  this among other youths and adults
                 </li>
                 <li className="goal__list-item">
                   <i className="bx bxs-spa goal__list-icon"></i>
-                  Promote small local youth-led projects to inspire the youths to
-                  adopt actionable measures to achieve sustainability
+                  Promote small local youth-led projects to inspire the youths
+                  to adopt actionable measures to achieve sustainability
                 </li>
                 <li className="goal__list-item">
                   <i className="bx bxs-spa goal__list-icon"></i>
@@ -152,16 +184,39 @@ const Home = () => {
           </div>
           <div className="container flags grid  grid-items-center">
             <figure className="flap">
-              <img src="/src/assets/images/countries/bangladesh-flag.png" alt="Bangladesh flag map" className="flag__img pointer" />
+              <img
+                src="/src/assets/images/countries/bangladesh-flag.png"
+                alt="Bangladesh flag map"
+                className="flag__img pointer"
+              />
             </figure>
             <figure className="flap">
-              <img src="/src/assets/images/countries/indian-flag.png" alt="India flag map" className="flag__img pointer" />
+              <img
+                src="/src/assets/images/countries/indian-flag.png"
+                alt="India flag map"
+                className="flag__img pointer"
+              />
             </figure>
             <figure className="flap">
-              <Link to="Nepalw"> <img src="/src/assets/images/countries/nepal-flag.jpg" alt="Nepal flag map" className="flag__img pointer" /></Link>
+              <a
+                href="https://nepal-visiongreen.org"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src="/src/assets/images/countries/nepal-flag.jpg"
+                  alt="Nepal flag map"
+                  className="flag__img pointer"
+                />
+              </a>
             </figure>
+
             <figure className="flap">
-              <img src="/src/assets/images/countries/Hungary-flag.png" alt="Pakistan flag map" className="flag__img pointer" />
+              <img
+                src="/src/assets/images/countries/Hungary-flag.png"
+                alt="Pakistan flag map"
+                className="flag__img pointer"
+              />
             </figure>
           </div>
         </section>
@@ -170,18 +225,22 @@ const Home = () => {
         {/* <!----------------- CTA Starts -----------------> */}
         <section className="cta-section">
           <div className="container flex flex-column cta text-center">
-            <h3 className="heading-tertiary cta__subheading">Have any questions?</h3>
+            <h3 className="heading-tertiary cta__subheading">
+              Have any questions?
+            </h3>
             <h2 className="heading-secondary cta__heading text-capitalize">
               Click on the button below to contact us!
             </h2>
-            <a href="https://visiongreen.org/contact" className="btn btn--secondary cta__btn">contact</a>
+            <a
+              href="https://visiongreen.org/contact"
+              className="btn btn--secondary cta__btn"
+            >
+              contact
+            </a>
           </div>
         </section>
         {/* <!---------------X- CTA Ends -X---------------> */}
       </main>
-
-
-
     </>
   );
 };
