@@ -126,7 +126,7 @@ const Home = () => {
                   Disseminate the sustainability stories, stories of the effects
                   of climate change, and stories that reflect the adverse
                   consequence of environmental degradation to make people aware
-                  and motivated to contribute to achieving a greener and world
+                  and motivated to contribute to achieving a greener and world.
                 </li>
               </ul>
             </div>
@@ -198,19 +198,16 @@ const Home = () => {
               />
             </figure>
             <figure className="flap">
-              <a
-                href="https://nepal-visiongreen.org"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <Link to="Nepal">
+                {" "}
                 <img
+                  href="https://nepal-visiongreen.org"
                   src="/src/assets/images/countries/nepal-flag.jpg"
                   alt="Nepal flag map"
                   className="flag__img pointer"
                 />
-              </a>
+              </Link>
             </figure>
-
             <figure className="flap">
               <img
                 src="/src/assets/images/countries/Hungary-flag.png"
